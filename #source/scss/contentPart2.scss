@@ -1,0 +1,72 @@
+@import "null.scss";
+.section2{
+    height: 1500px;
+    // height: 100%;
+    width: 100%;
+    // background: magenta;
+    padding-top: 200px;
+    background-image: url(../../img/berserk2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    // background-position: center;
+    @media screen and (max-width:1400px) {
+        background-size: 1500px 1500px;
+        width: 1400px;
+        height: 1600px;
+        padding-top: 50px;
+    }
+}
+.container{
+    // background: mediumspringgreen;
+    height: 600px;
+    display: flex;
+    justify-content: flex-end;
+    @media screen and(max-width:1400px){
+        height: 250px;
+    }
+}
+.content{
+    // background: yellow;
+    width: 50%;//50%
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.content-left{
+    // background: midnightblue;
+    height: 600px;
+    width: 1500px;
+    p{
+        font-family: 'Rock Salt', cursive;
+        font-size: 20px;
+        line-height: 60px;
+        color: white;
+    }
+    @media screen and (max-width:1400px) {
+        width: 650px;
+        height: 150px;
+        margin-bottom: 350px;
+        p{
+            line-height: 40px;
+            font-size: 10px;
+        }
+    }
+}
+// .content-right{
+//     background: orangered;
+//     height: 300px;
+//     width: 400px;
+// }
+
+
+
+
+
+
+
+
+
+
+
+

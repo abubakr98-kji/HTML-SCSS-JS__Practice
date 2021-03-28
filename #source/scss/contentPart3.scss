@@ -1,0 +1,248 @@
+@import "null.scss";
+
+
+
+.sectionPart3{
+    // height: 100%;
+    background: magenta;
+    width: 100%;
+    padding-top: 200px;//400
+    padding-bottom: 300px;
+}
+.section3__container{
+    background: red;
+    margin: 0 auto;
+    width: 70%;
+    
+    
+}
+.section3-content{
+    // background: powderblue;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.content-left{
+    // background: purple;
+    width: 45%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    h2{
+        text-transform: capitalize;
+        font-size: 40px;
+    }
+    p{
+        font-size: 15px;
+        line-height: 40px;
+        margin-top: 50px;
+        color: black;
+    }
+}
+.content-right{
+    background:yellow;
+    // width: 45%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    h2{
+        font-size: 50px;
+        text-transform: capitalize;
+        word-wrap: break-word;
+    }
+    p{
+        display: block;
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: capitalize;
+        margin-top: 50px;
+    }
+    a{
+        font-size: 50px;
+        margin-top: 80px;
+        font-weight: bold;
+        text-decoration: underline;
+        word-wrap: break-word;
+        color: black;
+    }
+}
+///////////////////////////////////////section4
+.sectionPart4{
+    height: 800px;
+    background: chartreuse;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.section4__container{
+    // background: blue;
+    margin: 0 auto;
+    width: 70%;
+    height: 100%;
+}
+.section4-content{
+    // background: blueviolet;
+    height: 100%;//80%
+    display: flex;
+    flex-direction: column;
+    .text{
+        width: 40%;
+        p{
+            font-size: 50px;
+            text-transform: capitalize;
+            margin-bottom: 60px;
+        }
+    }
+}
+.cards-list{
+    // background: yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    // flex-wrap: wrap;
+    width: 100%;
+    height: 50%;
+    // padding-top: 300px;
+    .cards{
+        width: 380px;
+        height: 100%;//420px
+        // background: tomato;
+        border: 1px solid #99ffbf;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transition: 0.9s;
+        h2{
+            font-size: 40px;
+        }
+        p{
+            font-size: 20px;
+            padding: 10px 10px 10px 30px;
+        }
+        .icon{
+            background: #fff4f4;
+            width: 100px;
+            height: 100px;
+            border-radius: 100px;
+            padding: 20px 10px 10px 8px;
+            i{
+                font-size: 60px;
+                margin: 0 auto;
+                color: red;
+            }
+        }
+        &:hover{
+            transition: 0.9s;
+            background-color: red;
+            p ,h2{
+                color: white;
+                transition: 0.9s;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .grid__body{
+//     display: grid;
+//     padding: 20px;
+//     background: cadetblue;
+    
+//     grid-template-columns: 1fr 1fr 1fr;//1fr 2fr 1fr
+//     grid-template-rows: 1fr 1fr ;
+// }
+// .grid__item{
+//     text-align: center;
+//     border:  2px dashed black;//rgba(255, 255, 255, 0.2)
+//     padding: 30px;
+// }
+// // name of districsts
+// .h2{
+//     font-size: 50px;
+//     background: crimson ;
+// }
+// .grid-wrapper{
+//     display: grid;
+//     grid-template-columns: 150px 1fr;
+//     grid-template-rows: 100px 1fr;
+//     grid-template-areas:
+//         'header header' 
+//         'side content'
+//     ;
+// }
+// .grid-header,
+// .grid-side,
+// .grid-content{
+//     padding: 30px;
+//     border: 2px dashed black;
+//     margin: 0 0 15px 0;
+// }
+// .grid-header{
+//     grid-area: header;
+// }
+// .grid-side{
+//     grid-area: side;
+// }
+// .grid-content{
+//     grid-area: content;
+// }
+// // grid auto
+// .auto-h2{
+//     font-size: 50px;
+//     background: crimson;
+//     margin-bottom: 10px;
+// }
+// .grid-auto{
+//     display: grid;
+//     grid-template: 1fr 1fr / repeat(3, 1fr);
+//     grid-auto-rows: 140px;
+//     grid-auto-flow: dense;
+// }
+// .grid-auto__item{
+//     text-align:center;
+//     border: 2px dashed black;
+//     padding: 30px;
+//     font-size: 30px;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

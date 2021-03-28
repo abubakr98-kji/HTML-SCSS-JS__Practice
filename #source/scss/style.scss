@@ -1,0 +1,118 @@
+@import 'null.scss';
+
+// body{
+//     min-width: 1170px;
+// }
+// HEADER
+.header{
+    // background: red;
+    // height: 150px;//150
+}
+.header-container{
+    // heighst: 150px;
+    background: green;
+}
+.header-content{
+    background: white;//white
+    height: 80px;//150
+    padding-right: 50px;//100
+    padding-left: 50px;//100
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    @media screen and (max-width:1700px){
+        justify-content: inherit;
+        padding-left: 10px;
+        padding-right: 50px;
+    }
+}
+.icon{
+    display: flex;
+    width: 450px;
+    text-align: center;
+    height: 60px;
+    i{
+        font-size: 50px;
+        line-height: 50px;
+    }
+    h1{
+        height: 50px;
+        margin-left: 5px;
+        line-height: 50px;
+        font-size: 20px;
+        font-weight: bold;
+        font-family:'Rock Salt', cursive;
+    }
+}
+.nav-bar{
+    width: 1000px;//1155
+    height: 60px;
+    // background: magenta;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10px 0 0 ;
+    .header-link-list{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    button{
+        width: 200px;
+        height: 50px;
+        background: #ec5b53;
+        transition: 1s;
+        // margin-top: 12px;
+        &:hover{
+            background: #ba362f;
+            transition: 1s;
+        }
+        a{
+            line-height: 50px;
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+            font-family:  'Ultra', serif;
+        }
+        @media screen and (max-width:1700px){
+            width: 200px;
+            a{
+                font-size: 20px;
+            }
+            
+            
+        }
+    }
+    @media screen and(max-width:1700px){
+        width: 1000px;
+        .header-link-list{
+            display: flex;
+            justify-content: inherit;
+            margin-right:0;
+        }
+    }
+}
+.header-link{
+    line-height: 80px;
+    margin-right: 50px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: 'Architects Daughter', cursive;
+    transition: 1s;
+    cursor: pointer;
+    &:hover{
+        color: red;
+        transition: 1s;
+    }
+}
+// CONTENT PART 1
+@import 'contentPart1.scss';
+// CONTENT PART 2
+@import 'contentPart2.scss';
+// CONTENT PART 3
+@import 'contentPart3.scss';
+//SECTION GRID
+@import 'sectionGrid.scss';
